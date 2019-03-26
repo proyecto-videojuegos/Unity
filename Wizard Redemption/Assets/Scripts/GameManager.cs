@@ -31,9 +31,16 @@ public class GameManager : MonoBehaviour {
 
     private void Update() {
 
-        if (Input.GetKeyDown(KeyCode.S)) {
+        if (Input.GetButtonDown("Start") 
+            && 
+            this.currentGameState != GameState.inGame) {
 
             StartGame();
+        }
+
+        if (Input.GetButtonDown("Pause")) {
+
+            BackToMenu();
         }
     }
 
@@ -41,6 +48,21 @@ public class GameManager : MonoBehaviour {
     //Inicia el juego
     public void StartGame() {
         SetGameState(GameState.inGame);
+        
+        GameObject camera = GameObject.FindGameObjectWithTag("MainCamera");
+
+        CameraFollow cameraFollow = camera.GetComponent<CameraFollow>();
+
+        cameraFollow.ResetCameraPosition();
+
+        if(PlayerController.sharedInstance.transform.position.x > 10) {
+
+            LevelGenerator.sharedInstance.RemoveAllTheBlocks();
+            LevelGenerator.sharedInstance.GenerateInitialBlocks();
+            
+        }
+
+        PlayerController.sharedInstance.StartGame();
 
     }
 

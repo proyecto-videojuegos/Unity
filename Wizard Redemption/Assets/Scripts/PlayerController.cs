@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
+    public static PlayerController sharedInstance;
 
     public float jumpForce = 30f;
 
@@ -13,19 +14,28 @@ public class PlayerController : MonoBehaviour {
 
     private Rigidbody2D rigidbody;
 
-    public LayerMask groundLayer;
+    private Vector3 startPosition;
+
+
 
 
     private void Awake() {
 
+        sharedInstance = this;
         rigidbody = GetComponent<Rigidbody2D>();
+        //Le damos al objeto startPosition la posicion del personaje. Al hacer esto en el awake nos devulve la posicion inicial del Player
+        startPosition = this.transform.position;
+
     }
 
 
-    // Start is called before the first frame update
-    void Start() {
+   
+    public void StartGame() {
+
         animator.SetBool("isAlive", true);
         animator.SetBool("isGrounded", true);
+        //Cada vez que reiniciamos ponemos al personaje en la posicion inicial
+        this.transform.position = startPosition;
 
     }
 
@@ -90,18 +100,12 @@ public class PlayerController : MonoBehaviour {
             
     }
 
-    void Walk() {
-
-
-    }
-
 
     bool IsTouchingTheGround() {
 
-        if(Physics2D.Raycast(this.transform.position,//trazamos el rayo desde la posici'on del jugador 
+        if(Physics2D.Raycast(this.transform.position,//trazamos el rayo desde la posicion del jugador 
                              Vector2.down,//direccion hacia el suelo
-                             0.2f,//hasta un maximo de 20 cm
-                             groundLayer//y nos encontramos con la capa del suelo
+                             0.2f//hasta un maximo de 20 cm
                              )) {
             return true;
 
@@ -109,5 +113,11 @@ public class PlayerController : MonoBehaviour {
 
             return false;
         }
+    }
+
+    public void Kill() {
+
+        GameManager.sharedInstance.GameOver();
+        this.animator.SetBool("isAlive", false);
     }
 }
