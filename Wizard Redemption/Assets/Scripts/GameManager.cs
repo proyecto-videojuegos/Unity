@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour {
     //En que estado del juego nos encontramos
     public GameState currentGameState = GameState.menu;
 
+    public Canvas menuCanvas, gameCanvas, gameOverCanvas;
+
     private void Awake() {
 
         sharedInstance = this;
@@ -41,6 +43,11 @@ public class GameManager : MonoBehaviour {
         if (Input.GetButtonDown("Pause")) {
 
             BackToMenu();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+
+            ExitGame();
         }
     }
 
@@ -78,18 +85,35 @@ public class GameManager : MonoBehaviour {
 
     }
 
+    //Para finalizar la ejecucion del videojuego
+    public void ExitGame() {
+
+        Application.Quit();
+    }
+
     //Para cambiar el estado del juego
     void SetGameState(GameState newGameState) {
 
-        if(newGameState == GameState.menu) {
+        //Hay que prepara la escena que muestra el menu
+        if (newGameState == GameState.menu) {
 
-            //Hay que prepara la escena que muestra el menu
-        }else if(newGameState == GameState.inGame) {
+            menuCanvas.enabled = true;
+            gameCanvas.enabled = false;
+            gameOverCanvas.enabled = false;
 
-            //Hay que prepara la escena para jugar
+        //Hay que prepara la escena para jugar
+        } else if(newGameState == GameState.inGame) {
+
+            menuCanvas.enabled = false;
+            gameCanvas.enabled = true;
+            gameOverCanvas.enabled = false;
+
+            //Hay que prepara la escena para el gameover    
         } else if(newGameState == GameState.gameOver) {
 
-            //Hay que prepara la escena para el gameover
+            menuCanvas.enabled = false;
+            gameCanvas.enabled = false;
+            gameOverCanvas.enabled = true;
         }
 
         //Asignamos el estado del juego por parametro

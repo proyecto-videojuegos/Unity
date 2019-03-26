@@ -14,10 +14,7 @@ public class PlayerController : MonoBehaviour {
 
     private Rigidbody2D rigidbody;
 
-    private Vector3 startPosition;
-
-
-
+    public Vector3 startPosition;
 
     private void Awake() {
 
@@ -42,15 +39,13 @@ public class PlayerController : MonoBehaviour {
     // Update is called once per frame
     void Update() {
 
-        if(GameManager.sharedInstance.currentGameState == GameState.inGame) {
+        if (GameManager.sharedInstance.currentGameState == GameState.inGame) {
 
             Jump();
 
             //Le decimos a la animacion si esta tocando el suelo o no con nuestro metodo IsTouchingTheGround()
             animator.SetBool("isGrounded", IsTouchingTheGround());
         }
-
-        
     }
 
     void FixedUpdate() {

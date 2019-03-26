@@ -75,7 +75,7 @@ public class LevelGenerator : MonoBehaviour
 
         while(currentBlocks.Count > 0) {
 
-            RemoveAllTheBlocks();
+            RemoveOldestLevelBlock();
         }
 
     }
