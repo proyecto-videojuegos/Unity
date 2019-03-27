@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour {
     public GameState currentGameState = GameState.menu;
 
     public Canvas menuCanvas, gameCanvas, gameOverCanvas;
+    //Contador del valor de los objectos collecionables
+    public int collectedObjects = 0;
 
     private void Awake() {
 
@@ -71,6 +73,8 @@ public class GameManager : MonoBehaviour {
 
         PlayerController.sharedInstance.StartGame();
 
+        this.collectedObjects = 0;
+
     }
 
     //Sera llamado cuando el jugador muera
@@ -119,4 +123,12 @@ public class GameManager : MonoBehaviour {
         //Asignamos el estado del juego por parametro
         this.currentGameState = newGameState;
     }
+
+    //Suma el valor de los objetos recogidos
+    public void CollectedObject(int objectValue) {
+
+        this.collectedObjects += objectValue;
+    }
+
+
 }
