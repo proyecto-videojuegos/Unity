@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour {
 
     public const int INITIAL_HEALTH = 100, INITIAL_MANA = 15, MAX_HEALTH = 150, MAX_MANA = 25;
 
-    public const int MIN_HEALTH = 10, MIN_MANA = 0;
+    public const int MIN_HEALTH = 0, MIN_MANA = 0;
 
     public const float MIN_SPEED = 2.5f, HEALTH_TIME_DECREASE = 1.0f;
 
@@ -37,6 +37,8 @@ public class PlayerController : MonoBehaviour {
         rigidbody = GetComponent<Rigidbody2D>();
         //Le damos al objeto startPosition la posicion del personaje. Al hacer esto en el awake nos devulve la posicion inicial del Player
         startPosition = this.transform.position;
+        this.healthPoints = INITIAL_HEALTH;
+        this.manaPoints = INITIAL_MANA;
 
     }
 
@@ -59,7 +61,7 @@ public class PlayerController : MonoBehaviour {
     //Corrutina
     IEnumerator TirePlayer() {
 
-        while(this.healthPoints > MIN_HEALTH) {
+        while(this.healthPoints >= MIN_HEALTH) {
 
             this.healthPoints--;
             yield return new WaitForSeconds(HEALTH_TIME_DECREASE);
@@ -82,6 +84,11 @@ public class PlayerController : MonoBehaviour {
             }
             //Le decimos a la animacion si esta tocando el suelo o no con nuestro metodo IsTouchingTheGround()
             animator.SetBool("isGrounded", IsTouchingTheGround());
+        }
+
+        if(healthPoints == 0) {
+
+            Kill();
         }
 
     }
@@ -122,9 +129,9 @@ public class PlayerController : MonoBehaviour {
 
             float currentSpeed = (runningSpeed - MIN_SPEED) * this.healthPoints / 100f;
 
-            if (rigidbody.velocity.x < currentSpeed) {
+            if (rigidbody.velocity.x <= currentSpeed) {
 
-                rigidbody.velocity = new Vector2(runningSpeed,//Velocidad en el eje de las X
+                rigidbody.velocity = new Vector2(currentSpeed,//Velocidad en el eje de las X
                                                  rigidbody.velocity.y//Velocidad en el eje de las y
                                                  );
 
@@ -133,9 +140,9 @@ public class PlayerController : MonoBehaviour {
 
             float currentSpeed = (runningSpeed - MIN_SPEED) * this.healthPoints / 100f;
 
-            if (rigidbody.velocity.x < currentSpeed) {
+            if (rigidbody.velocity.x <= currentSpeed) {
 
-                rigidbody.velocity = new Vector2(-runningSpeed,//Velocidad en el eje de las X
+                rigidbody.velocity = new Vector2(-currentSpeed,//Velocidad en el eje de las X
                                                  rigidbody.velocity.y//Velocidad en el eje de las y
                                                  );
 
@@ -216,5 +223,23 @@ public class PlayerController : MonoBehaviour {
     public int GetMana() {
 
         return this.manaPoints;
+    }
+
+    private void OnTriggerEnter2D(Collider2D otherCollider) {
+        
+        if(otherCollider.tag == "Enemy") {
+
+            this.healthPoints -= 100;
+        }
+
+        if(otherCollider.tag == "Rock") {
+
+            this.healthPoints -= 35;
+        }
+
+        if(GameManager.sharedInstance.currentGameState == GameState.inGame && this.healthPoints <= 0) {
+
+            Kill();
+        }
     }
 }
