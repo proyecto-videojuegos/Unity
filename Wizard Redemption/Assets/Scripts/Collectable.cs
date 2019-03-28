@@ -18,6 +18,8 @@ public class Collectable : MonoBehaviour{
     bool isCollected = false;
 
     public int value = 0;
+
+    public AudioClip collectSound;
     
     //Metodo para activar la moneda y su collider
     void Show() {
@@ -42,6 +44,14 @@ public class Collectable : MonoBehaviour{
 
     //Metodo para recolectar la moneda
     void Collect() {
+
+        AudioSource audio = GetComponent<AudioSource>();
+            
+        if(audio != null && this.collectSound != null) {
+
+            audio.PlayOneShot(this.collectSound);
+        }
+        
 
         //Hemos recogido la moneda
         isCollected = true;
