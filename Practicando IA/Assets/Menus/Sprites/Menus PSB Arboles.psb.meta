@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 867cb1bb32921f44f8e703a6b972e2fc
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Capa 9_GO/Capa 9_GO
+    100002: Capa 9_GO/Capa 9_GO/Capa 4
+    100004: Capa 9_GO/Capa 9_GO/Capa 6
+    100006: Capa 9_GO/Capa 9_GO/Capa 8
+    100008: Capa 9_GO/Capa 9_GO/Capa 9
+    100010: Capa 9_GO/Capa 9_GO/Capa 10
+    400000: Capa 9_GO/Capa 9_GO/Transform
+    400002: Capa 9_GO/Capa 9_GO/Capa 4/Transform
+    400004: Capa 9_GO/Capa 9_GO/Capa 6/Transform
+    400006: Capa 9_GO/Capa 9_GO/Capa 8/Transform
+    400008: Capa 9_GO/Capa 9_GO/Capa 9/Transform
+    400010: Capa 9_GO/Capa 9_GO/Capa 10/Transform
+    2800000: Menus PSB Arboles
+    21200000: Capa 9_GO/Capa 9_GO/Capa 4/SpriteRenderer
+    21200002: Capa 9_GO/Capa 9_GO/Capa 6/SpriteRenderer
+    21200004: Capa 9_GO/Capa 9_GO/Capa 8/SpriteRenderer
+    21200006: Capa 9_GO/Capa 9_GO/Capa 9/SpriteRenderer
+    21200008: Capa 9_GO/Capa 9_GO/Capa 10/SpriteRenderer
+    21300000: Capa 4
+    21300002: Capa 6
+    21300004: Capa 8
+    21300006: Capa 10
+    21300008: Capa 9
+    100100000: Capa 9_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Capa 4
+    originalName: 
+    pivot: {x: 0.029131806, y: 0.34802148}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3200
+      y: 4
+      width: 599
+      height: 369
+    spriteID: 630d46add1b3a3d449e213df50342709
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3055, y: -748}
+  - name: Capa 6
+    originalName: 
+    pivot: {x: 0.04780054, y: 0.45001867}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2572
+      y: 386
+      width: 445
+      height: 99
+    spriteID: 3054f4cf7bb89c243a62529405135746
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2254, y: -955}
+  - name: Capa 8
+    originalName: 
+    pivot: {x: 0.95758015, y: 0.28390047}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2572
+      y: 4
+      width: 620
+      height: 374
+    spriteID: 6dc4d5a2ab24a4945aa417527ff49fa5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 753, y: -735}
+  - name: Capa 10
+    originalName: 
+    pivot: {x: 0.932226, y: 0.15362336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2572
+      y: 493
+      width: 332
+      height: 100
+    spriteID: 0fe7ffa288c6a7d45b68bacb3fe8018b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 774, y: -847}
+  - name: Capa 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2560
+      height: 1440
+    spriteID: 644f67c926465a74fbcfce9576ce5618
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 2560, y: 1440}
+  textureActualWidth: 4096
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Fondo
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+  - name: Capa 4
+    spriteName: Capa 4
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 630d46add1b3a3d449e213df50342709
+    layerID: 58
+    mosaicPosition: {x: 3200, y: 4}
+  - name: Capa 6
+    spriteName: Capa 6
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 3054f4cf7bb89c243a62529405135746
+    layerID: 61
+    mosaicPosition: {x: 2572, y: 386}
+  - name: Capa 8
+    spriteName: Capa 8
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 6dc4d5a2ab24a4945aa417527ff49fa5
+    layerID: 64
+    mosaicPosition: {x: 2572, y: 4}
+  - name: Capa 10
+    spriteName: Capa 10
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0fe7ffa288c6a7d45b68bacb3fe8018b
+    layerID: 68
+    mosaicPosition: {x: 2572, y: 493}
+  - name: Capa 9
+    spriteName: Capa 9
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 644f67c926465a74fbcfce9576ce5618
+    layerID: 67
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0

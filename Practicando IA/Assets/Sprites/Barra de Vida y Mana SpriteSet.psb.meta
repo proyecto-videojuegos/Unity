@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: b8f7931380ce6c44b95265602dd9709e
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Red_GO/Red_GO
+    100002: Red_GO/Red_GO/Blue
+    100004: Red_GO/Red_GO/Elipse 1 copia 3
+    100006: Red_GO/Red_GO/Green
+    100008: Red_GO/Red_GO/Red
+    400000: Red_GO/Red_GO/Transform
+    400002: Red_GO/Red_GO/Blue/Transform
+    400004: Red_GO/Red_GO/Elipse 1 copia 3/Transform
+    400006: Red_GO/Red_GO/Green/Transform
+    400008: Red_GO/Red_GO/Red/Transform
+    2800000: Barra de Vida y Mana SpriteSet
+    21200000: Red_GO/Red_GO/Blue/SpriteRenderer
+    21200002: Red_GO/Red_GO/Elipse 1 copia 3/SpriteRenderer
+    21200004: Red_GO/Red_GO/Green/SpriteRenderer
+    21200006: Red_GO/Red_GO/Red/SpriteRenderer
+    21300000: Elipse 1 copia 3
+    21300002: Blue
+    21300004: Green
+    21300006: Red
+    100100000: Red_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Elipse 1 copia 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 800
+      height: 800
+    spriteID: bbcd40cfe0bc18c48897f5aee0ad2f2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -876, y: -316}
+  - name: Blue
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 812
+      width: 800
+      height: 800
+    spriteID: 7e9d92ec411bc5b45bb69bc9673a081b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -876, y: 492}
+  - name: Green
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 812
+      y: 4
+      width: 800
+      height: 800
+    spriteID: f577ad0b1a8109b48a3eeea8a0e5ac33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -68, y: -316}
+  - name: Red
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 812
+      y: 812
+      width: 800
+      height: 800
+    spriteID: 42e2221e8534ab24c9a56af5a224115f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -68, y: 492}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 2560, y: 1440}
+  textureActualWidth: 2048
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Elipse 1 copia 3
+    spriteName: Elipse 1 copia 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bbcd40cfe0bc18c48897f5aee0ad2f2b
+    layerID: 6
+    mosaicPosition: {x: 4, y: 4}
+  - name: Blue
+    spriteName: Blue
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7e9d92ec411bc5b45bb69bc9673a081b
+    layerID: 7
+    mosaicPosition: {x: 4, y: 812}
+  - name: Green
+    spriteName: Green
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f577ad0b1a8109b48a3eeea8a0e5ac33
+    layerID: 4
+    mosaicPosition: {x: 812, y: 4}
+  - name: Red
+    spriteName: Red
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 42e2221e8534ab24c9a56af5a224115f
+    layerID: 5
+    mosaicPosition: {x: 812, y: 812}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0

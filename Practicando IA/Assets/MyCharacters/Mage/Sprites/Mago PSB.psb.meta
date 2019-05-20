@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 198810427f6ba7542a4b49c5a95f5255
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Pierna Der_GO/Pierna Der_GO
+    100002: Pierna Der_GO/Pierna Der_GO/Bola
+    100004: Pierna Der_GO/Pierna Der_GO/Capa 8
+    100006: Pierna Der_GO/Pierna Der_GO/Capa 9
+    100008: Pierna Der_GO/Pierna Der_GO/Capa 11
+    100010: Pierna Der_GO/Pierna Der_GO/Capa 11_1
+    100012: Pierna Der_GO/Pierna Der_GO/Capa 16
+    100014: Pierna Der_GO/Pierna Der_GO/Capa 17
+    100016: Pierna Der_GO/Pierna Der_GO/nariz
+    100018: Pierna Der_GO/Pierna Der_GO/Pierna Der
+    100020: Pierna Der_GO/Pierna Der_GO/Pierna Izq
+    400000: Pierna Der_GO/Pierna Der_GO/Transform
+    400002: Pierna Der_GO/Pierna Der_GO/Bola/Transform
+    400004: Pierna Der_GO/Pierna Der_GO/Capa 8/Transform
+    400006: Pierna Der_GO/Pierna Der_GO/Capa 9/Transform
+    400008: Pierna Der_GO/Pierna Der_GO/Capa 11/Transform
+    400010: Pierna Der_GO/Pierna Der_GO/Capa 11_1/Transform
+    400012: Pierna Der_GO/Pierna Der_GO/Capa 16/Transform
+    400014: Pierna Der_GO/Pierna Der_GO/Capa 17/Transform
+    400016: Pierna Der_GO/Pierna Der_GO/nariz/Transform
+    400018: Pierna Der_GO/Pierna Der_GO/Pierna Der/Transform
+    400020: Pierna Der_GO/Pierna Der_GO/Pierna Izq/Transform
+    2800000: Mago PSB
+    21200000: Pierna Der_GO/Pierna Der_GO/Bola/SpriteRenderer
+    21200002: Pierna Der_GO/Pierna Der_GO/Capa 8/SpriteRenderer
+    21200004: Pierna Der_GO/Pierna Der_GO/Capa 9/SpriteRenderer
+    21200006: Pierna Der_GO/Pierna Der_GO/Capa 11/SpriteRenderer
+    21200008: Pierna Der_GO/Pierna Der_GO/Capa 11_1/SpriteRenderer
+    21200010: Pierna Der_GO/Pierna Der_GO/Capa 16/SpriteRenderer
+    21200012: Pierna Der_GO/Pierna Der_GO/Capa 17/SpriteRenderer
+    21200014: Pierna Der_GO/Pierna Der_GO/nariz/SpriteRenderer
+    21200016: Pierna Der_GO/Pierna Der_GO/Pierna Der/SpriteRenderer
+    21200018: Pierna Der_GO/Pierna Der_GO/Pierna Izq/SpriteRenderer
+    21300000: Capa 8
+    21300002: Capa 17
+    21300004: nariz
+    21300006: Capa 16
+    21300008: Capa 11
+    21300010: Bola
+    21300012: Capa 9
+    21300014: Capa 11_1
+    21300016: Pierna Izq
+    21300018: Pierna Der
+    100100000: Pierna Der_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Capa 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 310
+      width: 515
+      height: 304
+    spriteID: ecf3e6510e901034db5b6ae02f7fd108
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -883, y: -536}
+  - name: Capa 17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 310
+      width: 246
+      height: 183
+    spriteID: 20c88c8ffbe6157499917f4a853ebea2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -616, y: -598}
+  - name: nariz
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 781
+      y: 456
+      width: 132
+      height: 141
+    spriteID: 7985123def00774499649c6d2cbf9387
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -442, y: -400}
+  - name: Capa 16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 639
+      y: 4
+      width: 252
+      height: 278
+    spriteID: 672e74112596877419702ca38b661143
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -501, y: -812}
+  - name: Capa 11
+    originalName: 
+    pivot: {x: 0.18916754, y: 0.7543722}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 781
+      y: 310
+      width: 162
+      height: 138
+    spriteID: 4eb74424c4db87745bb257c2e027b09a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -387, y: -354}
+  - name: Bola
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 627
+      height: 298
+    spriteID: b9416ba7a08cb554e9a5777b4934b4e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1136, y: -615}
+  - name: Capa 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 622
+      width: 348
+      height: 360
+    spriteID: 74817301cd7aeb545b7a1f42e355896c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1029, y: 120}
+  - name: Capa 11_1
+    originalName: 
+    pivot: {x: 0.17077117, y: 0.74294853}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 527
+      y: 501
+      width: 176
+      height: 113
+    spriteID: 0729d99faf2e09c46991ad9d3fac715d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -763, y: -204}
+  - name: Pierna Izq
+    originalName: 
+    pivot: {x: 0.29664442, y: 0.7880883}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 899
+      y: 4
+      width: 90
+      height: 180
+    spriteID: f0b88a773887c854cb97d5870d846120
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -362, y: -458}
+  - name: Pierna Der
+    originalName: 
+    pivot: {x: 0.72030264, y: 0.8050344}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 622
+      width: 90
+      height: 180
+    spriteID: e7048d562a3f6b4409195895c40493f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -802, y: 168}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 1024
+  documentSize: {x: 2560, y: 1440}
+  textureActualWidth: 1024
+  textureActualHeight: 1024
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Character
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+  - name: Capucha
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 38
+    mosaicPosition: {x: 0, y: 0}
+  - name: Capa 8
+    spriteName: Capa 8
+    isGroup: 0
+    parentIndex: 1
+    spriteID: ecf3e6510e901034db5b6ae02f7fd108
+    layerID: 41
+    mosaicPosition: {x: 4, y: 310}
+  - name: Pelo
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 47
+    mosaicPosition: {x: 0, y: 0}
+  - name: Capa 17
+    spriteName: Capa 17
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 20c88c8ffbe6157499917f4a853ebea2
+    layerID: 67
+    mosaicPosition: {x: 527, y: 310}
+  - name: Rostro
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 25
+    mosaicPosition: {x: 0, y: 0}
+  - name: nariz
+    spriteName: nariz
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 7985123def00774499649c6d2cbf9387
+    layerID: 60
+    mosaicPosition: {x: 781, y: 456}
+  - name: Cabeza
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 49
+    mosaicPosition: {x: 0, y: 0}
+  - name: Capa 16
+    spriteName: Capa 16
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 672e74112596877419702ca38b661143
+    layerID: 65
+    mosaicPosition: {x: 639, y: 4}
+  - name: Brazos Der
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+  - name: Capa 11
+    spriteName: Capa 11
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 4eb74424c4db87745bb257c2e027b09a
+    layerID: 52
+    mosaicPosition: {x: 781, y: 310}
+  - name: Vara
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 70
+    mosaicPosition: {x: 0, y: 0}
+  - name: Bola
+    spriteName: Bola
+    isGroup: 0
+    parentIndex: 11
+    spriteID: b9416ba7a08cb554e9a5777b4934b4e2
+    layerID: 74
+    mosaicPosition: {x: 4, y: 4}
+  - name: Torso
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+  - name: Capa 9
+    spriteName: Capa 9
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 74817301cd7aeb545b7a1f42e355896c
+    layerID: 42
+    mosaicPosition: {x: 4, y: 622}
+  - name: Brazos Izq
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 57
+    mosaicPosition: {x: 0, y: 0}
+  - name: Capa 11
+    spriteName: Capa 11_1
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 0729d99faf2e09c46991ad9d3fac715d
+    layerID: 56
+    mosaicPosition: {x: 527, y: 501}
+  - name: Pierna Izq
+    spriteName: Pierna Izq
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f0b88a773887c854cb97d5870d846120
+    layerID: 20
+    mosaicPosition: {x: 899, y: 4}
+  - name: Pierna Der
+    spriteName: Pierna Der
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e7048d562a3f6b4409195895c40493f8
+    layerID: 19
+    mosaicPosition: {x: 360, y: 622}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0
